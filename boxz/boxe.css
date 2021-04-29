@@ -1,0 +1,211 @@
+header,.container{
+    width:57%;
+    margin: 0 auto;
+}
+.image{
+     text-align: center;
+     width:40%;
+     float: left;
+     font-weight:700;
+     font-size:20px;
+    padding-top:135px;
+}
+
+span{
+    color: gold;
+}
+#ecrit{
+    width:95%;
+}
+.compte{
+   
+  
+   width:60%;
+    float: right;
+  width:500px;
+   
+    border: solid;
+    background: #eeeeee;
+  
+ 
+}
+.compte img,  p{
+    
+     display: inline-block;
+    
+}
+h1{
+ 
+font-size:40px;
+  
+}
+.contak{
+    font-size:20px;
+    text-align: center;
+   list-style: none;
+  text-align: end;
+  
+}
+
+li{
+    margin:10px;
+      display: inline;
+    
+}
+
+   .boxe{
+       text-align: center;
+   }
+   main{
+       height:1394px;
+       background-color: #1C1C1C;
+   }
+  .clear{
+      clear: both;
+  }
+  .container{
+      background-color: #F3F3F3;
+      height:1500px;
+      
+  }
+  .gant{
+    text-align: center;
+    
+  }
+  .gant img{
+    
+   padding: 50px;
+
+  
+  }
+.h_gauche,.h_droite,.bas_gauche,.bas_droite{
+    float: left;
+    width: 40%;
+    padding: 5%;
+
+  position: relative;
+  
+}
+.h_gauche img{
+     border: solid 1px gray;
+}
+   .bas_droite img{
+    border: solid 1px gray;
+   }
+   .h_droite img{
+    border: solid 1px gray;
+   }
+   .bas_gauche img{
+    border: solid 1px gray;
+   }
+.loki{
+    text-align: center;
+    width: 80%;
+   position: relative;
+   font-weight: 700;
+   bottom: 35px;
+}
+.border{
+
+    text-align: center;
+    background-color: black;
+    color: ivory;
+    width: 200px;
+    height:35px;
+ font-size: 25px;
+float: left;
+
+}
+.nombre{
+    margin: 15px 0px 15px 30px;
+  
+    border: 2px solid;
+    position: relative;
+    bottom: 40px;
+    
+     float: left;
+    font-size: 25px;
+    border-image:linear-gradient(to right, transparent, #222) ;
+    border-image-slice: 1;
+   
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.nombre span{
+   color: #EAA009;
+    font-size: 40px;
+}
+.nombre del{
+    position: relative;
+    bottom: 20px;
+}
+.orange{
+    z-index: 1;
+
+    position: absolute;
+    margin-top: 3.6%;
+    margin-left: 20%;
+    background-color: rgb(54, 54, 54);
+    color: orange;
+    font-size: 23px;
+    padding: 5px;
+    border: 8px inset rgba(184, 184, 184, 0.281);
+    border-radius: 5px 5px;
+}
+.noir{
+    background-color: rgb(71, 71, 71);
+    height: 46px;
+  }
+  .blanc{
+      
+      background-color: black;
+      width: 405px;
+      height:39px;
+      
+  }
+  .rouge{
+      position: relative;
+      bottom: 42px;
+      float: right;
+    background-color: black;
+    
+    width: 406px;
+    height:43px;
+  }
+  footer nav {
+      background-color: white;
+      width: 27%;
+      height: 48px;
+      position: absolute;
+      left: 37%;
+      margin-top: -1px;
+      border: 1px solid lightgray;
+      border-radius:0px 0px 5px 5px
+  }
+  .frere{
+    background-color: rgb(71, 71, 71);
+    height: 800px;
+  }
+  .icon{
+      margin: 0 auto;
+ 
+      text-align: center;
+      color: oldlace;
+      
+  }
+  .icon img{
+    
+      margin-top: 137px;
+  }
+.clear{
+    clear: both;
+} 
+    
+ 
+
+
+
+
+

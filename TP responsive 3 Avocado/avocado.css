@@ -1,0 +1,36 @@
+:root{
+     --text-color: beige;
+     --text-border: 
+}
+body{
+    margin: 0 auto;
+   
+}
+.build{
+    display: flex;
+    background-image: url(img/building2.jpg);
+    justify-content: center;
+    flex-direction: column-reverse;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: sans-serif;
+    height: 320px;
+    /* height: auto; */
+    /* min-height: 70%; */
+    /* object-fit: contain; */
+    background-size: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.harry{
+    margin: auto;
+    border: 10px solid ;
+    padding: 15px;
+    padding-bottom: 118px;
+    padding-top: 80px;
+}
+.harry img{
+    width: 18%;
+    height: auto;
+}

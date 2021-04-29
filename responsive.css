@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    background-color: green;
+    margin: auto;
+    color: white;
+    display: block;
+    width: 300px;
+    font-family: fantasy;
+    height: 100px;
+    font-size: 3.8rem;
+}
+div{
+    background-color: green;
+    /* height: 234px; */
+    height: 40vw;
+    border-radius: 157px 26px;
+
+     /* width: 300px; */
+     width: 40vw;
+    /* margin-top: 57px;
+    margin: auto;
+    margin-top: 50px; et pourquoi ne pas faire en une seule ligne : */
+    margin: 50px auto;
+}
+
+h1:nth-child(1), h1:nth-child(2), h1:nth-child(4){
+    display: none;
+}
+
+@media screen and (min-width: 776px) and (max-width: 991px){
+
+    h1{
+        background-color: yellow;
+        color: black;
+         width: 400px;
+    }
+    div{
+        background-color: yellow;
+        transform: rotate(253deg);
+    }
+ 
+}    
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+   
+    h1{
+        background-color: orange;
+        color: black;
+         width: 700px;
+    }
+    div{
+        background-color: orange;
+        border-radius: 54%;
+        /* width: 403px;
+        height: 340px; la taille en vw est responsive : pas nécessaire ici de réécrire des tailles */
+       
+    }
+
+}
+@media screen and (min-width: 1200px){
+
+
+    h1{
+        background-color: rgb(241, 157, 60);
+        color: black;
+         width: 1000px;
+    }
+    div{
+        background-color: rgb(241, 157, 60);
+        border-radius: 54%;
+        /* width: 403px;
+        height: 340px; la taille en vw est responsive : pas nécessaire ici de réécrire des tailles */
+       
+    }
+
+}

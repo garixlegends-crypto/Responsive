@@ -1,0 +1,179 @@
+.haut, nav ,.border{
+    border: solid 1px;
+    margin: auto;
+    width: 74%;
+}
+
+.haut{
+    background-color: brown;
+    height: 199px;
+    width: 74%;
+    margin: auto;
+}
+nav{
+    background-color: burlywood;
+    height: 50px;
+    margin: auto;
+    width: 74%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    color: aliceblue;
+    font-size: 31px;
+    list-style: none;
+    grid-gap: 54px;
+}
+.line{
+    height: 473px;
+    width: 46%;
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 0;
+    margin: 12px;
+}
+
+.depla{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bas{
+    background-color: brown;
+    height: 100px;
+    width: 74%;
+    border: solid 1px;
+    margin: auto;
+}
+@media screen and (min-width: 1300px) and (max-width: 1500px){
+    .haut{
+        background-color: chartreuse;
+    }
+    nav{
+        background-color: deeppink;
+    }
+    .line{
+      border-radius: 50%;
+    }
+    .depla :nth-of-type(1){
+       background-image: url(1245070-muphasa-et-simba-dans-le-roi-lion.jpg);
+    }
+    .line{
+     background:none;
+    
+     }
+     .depla :nth-of-type(2){
+        background-color: red;
+     }
+     .depla :nth-of-type(3){
+        background-color: blue;
+     }
+     .depla :nth-of-type(4){
+        background-color: orange;
+     }
+     .bas{
+        background-color: chartreuse;
+     }
+}
+@media screen and (min-width:1000px) and (max-width: 1300px){
+    .haut{
+        background-color: blue;
+    }
+    nav{
+        background-color: red;
+    }   
+     .line{
+     background:none;
+    
+     }
+     depla :nth-of-type(1){
+      background-color: palevioletred;
+    }
+    .depla :nth-of-type(1){
+        background-color: peru;
+     }
+     .depla :nth-of-type(2){ 
+       background-color: blue;
+     }
+     .depla :nth-of-type(3){
+        background-color: red;
+     }
+     .depla :nth-of-type(4){
+        background-color: orange;
+     }
+     .bas{
+        background-color: blue;
+     }
+}   
+@media screen and (min-width:500px) and (max-width: 1000px){
+    .haut{
+        background-color: rosybrown;
+    }
+    nav{
+        
+        background-color: gray;
+    }   
+    li{
+        font-size: 15px;
+    }
+     .line{
+     background:none;
+    width: 43%;
+     }
+     
+    .depla :nth-of-type(1){
+        background-color: firebrick;
+     }
+     .depla :nth-of-type(2){ 
+       background-color: blanchedalmond;
+     }
+     .depla :nth-of-type(3){
+        background-color: forestgreen;
+     }
+     .depla :nth-of-type(4){
+        background-color: orange;
+     }
+     .bas{
+        background-color:rosybrown;
+     }
+}   
+@media screen and (min-width:350px) and (max-width: 500px){
+    .haut{
+        background-color: lightgreen;
+    }
+    nav{
+        
+        background-color: blueviolet;
+    }   
+    li{
+        font-size: 10px;
+    }
+     
+    .depla{
+        display: inline-block;
+        width: 233%;
+        margin: 0px;
+    }
+    .line{
+        margin: unset;
+    }
+    .depla :nth-of-type(1){
+        background-color: aquamarine;
+     }
+     .depla :nth-of-type(2){ 
+       background-color: moccasin;
+     }
+     .depla :nth-of-type(3){
+        background-color: lightgoldenrodyellow;
+     }
+     .depla :nth-of-type(4){
+        background-color: navy;
+     }
+     .bas{
+        background-color: lightgreen;
+     }
+}   
+
+ 
+    

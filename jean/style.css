@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif;
+}
+
+.blockgris {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row-reverse;
+}
+
+.gris1 {
+    display: flex;
+    justify-content: center;
+    background-color: #C3C2C3;
+    width: 20vw;
+}
+
+h1 {
+    font-size: 144px;
+}
+
+.rouge {
+    color: white;
+    background-color: #C73D3E;
+    width: 1900px;
+    height: 300px;
+}
+
+.gris1 img {
+    position: absolute;
+    margin-top: 142px;
+    height: 395px;
+    width: 17%;
+}
+
+h2 {
+    padding: 25px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.ensemble {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.moi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.moi p {
+    margin: auto;
+    width: 43%;
+    text-align: center;
+}
+
+.numero1 {
+    margin: auto;
+    width: 82%;
+    font-size: 25px;
+}
+
+.blockgris2 {
+    margin: auto;
+    width: 91%;
+}
+
+.gris3 {
+    background-color: #C3C2C3;
+    height: 1500px;
+    width: 20vw;
+    padding-top: 70px;
+}
+
+.bar {
+    background-color: #C73D3E;
+    width: 200px;
+    height: 10px;
+}
+
+h4 {
+    font-size: 28px;
+    margin: auto;
+    width: 42%;
+}
+
+.conpt {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    width: 57%;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.bar2 {
+    background-color: #C73D3E;
+    width: 88px;
+    height: 10px;
+}
+
+.blanc {
+    background-color: #EFEEEF;
+    width: 150px;
+    height: 1970px;
+
+}
+
+.placement {
+    width: 75%;
+    float: right;
+
+}
+
+h3 {
+    padding-left: 50px;
+    margin: auto;
+    font-size: 35px;
+    display: flex;
+    position: absolute;
+    padding-top: 35px;
+}
+
+.text {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text2 {
+    padding-top: 227px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text3 {
+    padding-top: 236px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text4 {
+    padding-top: 224px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h5 {
+    color: red;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.axopen {
+    float: right;
+    width: 86%;
+    margin-top: 78px;
+
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+.fin {
+    padding-top: 100px;
+}
+
+.text5 {
+    padding-top: 119px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text6 {
+    padding-top: 236px;
+    text-align: center;
+    font-weight: bold;
+}
